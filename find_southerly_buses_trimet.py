@@ -164,7 +164,6 @@ def monitor():
 
 
 def open_map(lat, lon):
-    import webbrowser
     map = 'https://maps.googleapis.com/maps/api/staticmap?center='
     map += '%s,%s&size=%s&markers=%s' % (lat, lon, SIZE, MARKER_1)
     map += '&key=%s' % API_KEY
