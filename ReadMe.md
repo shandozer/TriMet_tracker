@@ -8,12 +8,13 @@
   1. Store these keys within a file in your environment: $HOME/.API_KEYS, with expected vars:
   
   *(Use these vars with Bash syntax)*
-    - GOOGLEMAP_API_KEY=blah   
-    - TRIMET_APPID=blah
+  
+    `GOOGLEMAP_API_KEY=blah`   
+    `TRIMET_APPID=blorp`
 
 #### **Launch**
 
-  - ```python find_southery_buses_trimet.py [-d] [-lat] [-lon]```
+  `python find_southery_buses_trimet.py [-d] [-lat] [-lon]`
     
 #### **Options:**
 - \-d (distance, in miles, from your location) 
